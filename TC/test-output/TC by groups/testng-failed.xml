@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TC by groups]">
+  <test name="GRP-worldwide(failed)">
+    <groups>
+      <run>
+        <include name="worldwide"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="defaultpackage.Individuvial">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="WorldwideAnnual"/>
+          <include name="beforeTest"/>
+          <include name="Shortterm"/>
+        </methods>
+      </class> <!-- defaultpackage.Individuvial -->
+      <class name="defaultpackage.RenewIWA">
+        <methods>
+          <include name="RenewASIS"/>
+          <include name="RenewWADM"/>
+          <include name="GetPassword"/>
+          <include name="beforeTest"/>
+          <include name="RenewWAWS"/>
+        </methods>
+      </class> <!-- defaultpackage.RenewIWA -->
+      <class name="defaultpackage.RenewFWA">
+        <methods>
+          <include name="RenewASIS"/>
+          <include name="RenewWAWS"/>
+        </methods>
+      </class> <!-- defaultpackage.RenewFWA -->
+      <class name="defaultpackage.Family">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="WFamilyAnnual"/>
+          <include name="beforeTest"/>
+          <include name="WFamilyShortterm"/>
+        </methods>
+      </class> <!-- defaultpackage.Family -->
+    </classes>
+  </test> <!-- GRP-worldwide(failed) -->
+</suite> <!-- Failed suite [TC by groups] -->

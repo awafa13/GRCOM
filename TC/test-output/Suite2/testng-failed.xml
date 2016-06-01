@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite2]" parallel="tests">
+  <test name="Test4(failed)" parallel="tests">
+    <classes>
+      <class name="defaultpackage.IndividuvialDynamicsVerification">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- defaultpackage.IndividuvialDynamicsVerification -->
+      <class name="defaultpackage.FamilyDynamicsVerification">
+        <methods>
+          <include name="datacomparison"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- defaultpackage.FamilyDynamicsVerification -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

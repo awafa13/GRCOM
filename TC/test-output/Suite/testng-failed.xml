@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <groups>
+      <run>
+        <include name="worldwide"/>
+        <exclude name="Domestic"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="newmembership.Family">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- newmembership.Family -->
+      <class name="newmembership.Individuvial">
+        <methods>
+          <include name="Shortterm"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- newmembership.Individuvial -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test2(failed)" parallel="none">
+    <groups>
+      <run>
+        <include name="worldwide"/>
+        <exclude name="Domestic"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="newmembership.Family">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="WFamilyShortterm"/>
+          <include name="afterTest"/>
+          <include name="WFamilyAnnual"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- newmembership.Family -->
+      <class name="newmembership.Individuvial">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- newmembership.Individuvial -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

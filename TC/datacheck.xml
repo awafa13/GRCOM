@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite2" parallel="tests">
+ <test name="Test3">
+    <classes>
+     <class name="defaultpackage.IndividuvialDynamicsVerification"/>
+   </classes>
+  </test> <!-- Test3 -->
+  <test name="Test4">
+    <classes>
+     <class name="defaultpackage.FamilyDynamicsVerification"/>
+   </classes>
+  </test> <!-- Test4 -->
+</suite> <!-- Suite -->

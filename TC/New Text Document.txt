@@ -1,0 +1,2 @@
+set classpath = D:\Automation Repositry\TC java -cp bin;lib/* org.testng.TestNG.NewSuite.xml
+pause
